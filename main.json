@@ -16,6 +16,43 @@
             ]
         },
         {
+            "listitem": "Flush Policy", 
+        "icon": "91c89c7db4321c9e4ca57ec2259083b0665285dc4f55811f6c960d3b29e0b844",
+            "progresstext": "Flushing Policy Logs",
+            "trigger_list": [
+                {
+                    "trigger": "flush-policy",
+                    "validation": "None"
+                },
+                {
+                    "trigger": "disable-checkin",
+                    "validation": "None"
+                }
+            ]
+        },
+        {
+            "listitem": "Rosetta 2", 
+            "icon": "d86af84697341405ba5ea191b41d644529b52c43359f922592a640f4f643a26c",
+            "progresstext": "Installing Rosetta 2",
+            "trigger_list": [
+                {
+                    "trigger": "install-rosetta2",
+                    "validation": "None"
+                }
+            ]
+        },
+        {
+            "listitem": "Find My Settings", 
+        "icon": "26014d7ad5aa72c3b7092c27cd6cb84670d97dad64541b32d034b3ffdb9f4dbf",
+            "progresstext": "Applying Find My Settings",
+            "trigger_list": [
+                {
+                    "trigger": "build-removefmm",
+                    "validation": "None"
+                }
+            ]
+        },
+        {
             "listitem": "Service Account", 
             "icon": "7b3ce9576e3784adbde6bd2f255c0cf14b7428c5a59e51417233525c2a26aa0e",
             "progresstext": "Creating Service Account",
