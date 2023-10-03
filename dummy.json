@@ -1,0 +1,37 @@
+{
+    "steps": [
+        {
+            "listitem": "Hostname", 
+            "icon": "8453ddfb069a6536015699110c21175afebe2dac08660838d5311c17f904ada0",
+            "progresstext": "Setting Hostname",
+            "trigger_list": [
+                {
+                    "trigger": "abc",
+                    "validation": "None"
+                }
+            ]
+        },       
+        {
+            "listitem": "Rosetta 2", 
+            "icon": "d86af84697341405ba5ea191b41d644529b52c43359f922592a640f4f643a26c",
+            "progresstext": "Installing Rosetta 2",
+            "trigger_list": [
+                {
+                    "trigger": "abc-xyz",
+                    "validation": "None"
+                }
+            ]
+        },
+        {
+            "listitem": "Finalizing",
+            "icon": "c2d36545f69a5914f503ce5bc68d204a6cac2d69fc98ed3b5353fb1e7e27d88d",
+            "progresstext": "Cleaning up and finalizing",
+            "trigger_list": [
+                {
+                    "trigger": "xyz",
+                    "validation": "None"
+                }
+            ]
+        }
+    ]
+}
