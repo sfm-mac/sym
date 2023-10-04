@@ -1,0 +1,70 @@
+            {
+                "steps": [
+                    {
+                        "listitem": "NoMAD",
+                        "icon": "a4360c5fddc50f022dcaec12b9a0e85e87189cc0bb7a8e1148011394c5bcc691",
+                        "progresstext": "Installing NoMAD",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-nomad",
+                                "validation": "/Applications/NoMAD.app/Contents/Info.plist"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Company Portal",
+                        "icon": "be50910c664ac3632bb953bc0bdcda765dea449a5cca108d87530200ecc5aff5",
+                        "progresstext": "Installing Company Portal",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-company-portal",
+                                "validation": "/Applications/Company Portal.app/Contents/Info.plist"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "VPN",
+                        "icon": "d92935a5db07ae9c5a9965bceef3f4a868ea80172835de3523bed0a931a0640e",
+                        "progresstext": "Installing VPN Client",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-f5vpn",
+                                "validation": "/Applications/BIG-IP Edge Client.app/Contents/Info.plist"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "JamfProtect",
+                        "icon": "b310e757dd985c67f6e799fa6fb9032cacceb17108d86dbe7da1484d6126f26e",
+                        "progresstext": "Installing JamfProtect",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-jamf-protect",
+                                "validation": "/Applications/JamfProtect.app/Contents/Info.plist"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Qualys",
+                        "icon": "20ae3ca281cf3f9d905b688634b4f35e65b42a29317419c884d442b0de5eb124",
+                        "progresstext": "Installing Qualys",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-qualys",
+                                "validation": "/Applications/QualysCloudAgent.app/Contents/Info.plist"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Privileges",
+                        "icon": "0d4b3258e7e2cd38c99a45f79635f733e481dbf3f9de7f59f7db22c0f3cb3290",
+                        "progresstext": "Installing Privileges",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-privileges",
+                                "validation": "/Applications/Privileges.app/Contents/Info.plist"
+                            }
+                        ]
+                    }
+                ]
+            }
