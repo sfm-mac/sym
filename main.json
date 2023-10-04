@@ -1,328 +1,328 @@
 {
-    "steps": [
-        {
-            "listitem": "Hostname", 
-            "icon": "8453ddfb069a6536015699110c21175afebe2dac08660838d5311c17f904ada0",
-            "progresstext": "Setting Hostname",
-            "trigger_list": [
-                {
-                    "trigger": "build-rename-computer",
-                    "validation": "None"
-                },
-                {
-                    "trigger": "wait_DNET",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "Flush Policy", 
-        "icon": "91c89c7db4321c9e4ca57ec2259083b0665285dc4f55811f6c960d3b29e0b844",
-            "progresstext": "Flushing Policy Logs",
-            "trigger_list": [
-                {
-                    "trigger": "flush-policy",
-                    "validation": "None"
-                },
-                {
-                    "trigger": "disable-checkin",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "Rosetta 2", 
-            "icon": "d86af84697341405ba5ea191b41d644529b52c43359f922592a640f4f643a26c",
-            "progresstext": "Installing Rosetta 2",
-            "trigger_list": [
-                {
-                    "trigger": "install-rosetta2",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "Find My Settings", 
-        "icon": "26014d7ad5aa72c3b7092c27cd6cb84670d97dad64541b32d034b3ffdb9f4dbf",
-            "progresstext": "Applying Find My Settings",
-            "trigger_list": [
-                {
-                    "trigger": "build-removefmm",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "Service Account", 
-            "icon": "7b3ce9576e3784adbde6bd2f255c0cf14b7428c5a59e51417233525c2a26aa0e",
-            "progresstext": "Creating Service Account",
-            "trigger_list": [
-                {
-                    "trigger": "TBD",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "Python 3",
-            "icon": "14c1d0ead8d7a4bae7be6de6aed069090008e31c3692059f69fb90fbe759af98",
-            "progresstext": "Installing Python 3",
-            "trigger_list": [
-                {
-                    "trigger": "install-Python3",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "Management Tools",
-            "icon": "2868455b1d7c4729b58ecc3054800e7effee27bb64aae4e6c1f18956135b2a30",
-            "progresstext": "Installing tools and utilities required for managing the mac",
-            "trigger_list": [
-                {
-                    "trigger": "install-dockutil",
-                    "validation": "None"
-                },
-                {
-                    "trigger": "install-desktoppr",
-                    "validation": "None"
-                },
-                {
-                    "trigger": "remove-iwork-ilife",
-                    "validation": "None"
-                },
-                {
-                    "trigger": "Install-nudge",
-                    "validation": "None"
-                },
-                {
-                    "trigger": "install-laps",
-                    "validation": "None"
-                }
-            ]
-        },
-        
-        {
-            "listitem": "NoMAD",
-            "icon": "a4360c5fddc50f022dcaec12b9a0e85e87189cc0bb7a8e1148011394c5bcc691",
-            "progresstext": "Installing NoMAD",
-            "trigger_list": [
-                {
-                    "trigger": "install-nomad",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "Microsoft 365",
-            "icon": "2a24bfce7a62d021fc31feeae341357c6661e9219c9fb879421ca4b448f198af",
-            "progresstext": "Installing Microsoft 365. This may take some time",
-            "trigger_list": [
-                {
-                    "trigger": "install-office365",
-                    "validation": "None"
-                },
-                {
-                    "trigger": "install-teams-agent",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "Company Portal",
-            "icon": "be50910c664ac3632bb953bc0bdcda765dea449a5cca108d87530200ecc5aff5",
-            "progresstext": "Installing Company Portal",
-            "trigger_list": [
-                {
-                    "trigger": "install-company-portal",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "Skype for Business",
-            "icon": "ad4f5a1fb0f9359f71c4e9bcacfc857c8ff72405e996b736d914adedb6d97e7e",
-            "progresstext": "Installing Skype for Business",
-            "trigger_list": [
-                {
-                    "trigger": "install-skype",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "Zoom",
-            "icon": "636a398b2caec6f93e52a9f3868459219d692c0888cf7e4915e956d56d419aaa",
-            "progresstext": "Installing Zoom",
-            "trigger_list": [
-                {
-                    "trigger": "install-zoom",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "VPN",
-            "icon": "d92935a5db07ae9c5a9965bceef3f4a868ea80172835de3523bed0a931a0640e",
-            "progresstext": "Installing Deloitte VPN",
-            "trigger_list": [
-                {
-                    "trigger": "install-f5vpn",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "JamfProtect",
-            "icon": "b310e757dd985c67f6e799fa6fb9032cacceb17108d86dbe7da1484d6126f26e",
-            "progresstext": "Installing JamfProtect",
-            "trigger_list": [
-                {
-                    "trigger": "install-jamf-protect",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "Qualys",
-            "icon": "20ae3ca281cf3f9d905b688634b4f35e65b42a29317419c884d442b0de5eb124",
-            "progresstext": "Installing Qualys",
-            "trigger_list": [
-                {
-                    "trigger": "install-qualys",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "Deloitte Policy Banner",
-            "icon": "a44100c26754b1fdab90be6394cc573ee5e7c2f6dd5838571af4b606e63d0859",
-            "progresstext": "Configuring Policy Banner",
-            "trigger_list": [
-                {
-                    "trigger": "install-loginbanner",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "Druva",
-            "icon": "8680a39da35753f28b18b4c58480597c8df9fd1207f57f8c7e525a9bd8429e4f",
-            "progresstext": "Installing Druva",
-            "trigger_list": [
-                {
-                    "trigger": "install-druva",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "Privileges",
-            "icon": "0d4b3258e7e2cd38c99a45f79635f733e481dbf3f9de7f59f7db22c0f3cb3290",
-            "progresstext": "Installing Privileges",
-            "trigger_list": [
-                {
-                    "trigger": "install-privileges",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "DesktopAlert",
-            "icon": "9a30394159a13ed36c95113160060fd1642ccdbba68400f6761a41c42c1706b7",
-            "progresstext": "Installing DesktopAlert",
-            "trigger_list": [
-                {
-                    "trigger": "install-sendwordnow",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "Printer Drivers",
-            "icon": "43ed60dc7a917818544ae924c8d75b6e29be962c73193251ab9c109c5178d89b",
-            "progresstext": "Installing Printer Drivers",
-            "trigger_list": [
-                {
-                    "trigger": "install-printing",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "LogMeIn Rescue",
-            "icon": "f589941209272ff3a21813eaf4e6cdef33b7b4a0d2cdad715edfa579cea67fb2",
-            "progresstext": "Installing LogMeIn Rescue",
-            "trigger_list": [
-                {
-                    "trigger": "Install-LogMeIn",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "Build Infromation",
-            "icon": "d04d67acfffe27f442b446ce272591e944ed853c64dc3463238eb2968211202e",
-            "progresstext": "Recording Build Information",
-            "trigger_list": [
-                {
-                    "trigger": "build-runbuildinfo",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "Member Firm Specific Applications and Settings",
-            "icon": "8e07a54185686afccdac7e5595808fd48ef0adf1c2bb7045cd8933b4498c28c9",
-            "progresstext": "Installing and applying Member Firm specific applications and settings",
-            "trigger_list": [
-                {
-                    "trigger": "build-memberfirm-policy",
-                    "validation": "None"
-                },
-                {
-                    "trigger": "build-memberfirm-required",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "Deloitte Branding",
-            "icon": "abac09bcd5cc73858d1624ce187f5a83c80f77fff05ec0e9381e73e2bb84c40c",
-            "progresstext": "Applying Deloitte Branding",
-            "trigger_list": [
-                {
-                    "trigger": "configure-wallpaper",
-                    "validation": "None"
-                },
-                {
-                    "trigger": "configure-dock",
-                    "validation": "None"
-                },
-                {
-                    "trigger": "configure-desktop",
-                    "validation": "None"
-                }
-            ]
-        },
-        {
-            "listitem": "Finalizing",
-            "icon": "c2d36545f69a5914f503ce5bc68d204a6cac2d69fc98ed3b5353fb1e7e27d88d",
-            "progresstext": "Cleaning up and finalizing",
-            "trigger_list": [
-                {
-                    "trigger": "build-mark-complete",
-                    "validation": "None"
-                },
-                {
-                    "trigger": "start-inventory",
-                    "validation": "None"
-                },
-                {
-                    "trigger": "creating-launch-daemon-interactive-setup",
-                    "validation": "None"
-                }
-            ]
-        }
-    ]
-}
+                "steps": [
+                    {
+                        "listitem": "Hostname", 
+                        "icon": "8453ddfb069a6536015699110c21175afebe2dac08660838d5311c17f904ada0",
+                        "progresstext": "Setting Hostname",
+                        "trigger_list": [
+                            {
+                                "trigger": "build-rename-computer",
+                                "validation": "None"
+                            },
+                            {
+                                "trigger": "wait_DNET",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Flush Policy", 
+                        "icon": "91c89c7db4321c9e4ca57ec2259083b0665285dc4f55811f6c960d3b29e0b844",
+                        "progresstext": "Flushing Policy Logs",
+                        "trigger_list": [
+                            {
+                                "trigger": "flush-policy",
+                                "validation": "None"
+                            },
+                            {
+                                "trigger": "disable-checkin",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Rosetta 2",
+                        "icon": "d86af84697341405ba5ea191b41d644529b52c43359f922592a640f4f643a26c",
+                        "progresstext": "Installing Rosetta 2",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-rosetta2",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Find My Settings",
+                        "icon": "26014d7ad5aa72c3b7092c27cd6cb84670d97dad64541b32d034b3ffdb9f4dbf",
+                        "progresstext": "Applying Find My Settings",
+                        "trigger_list": [
+                            {
+                                "trigger": "build-removefmm",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Service Account", 
+                        "icon": "7b3ce9576e3784adbde6bd2f255c0cf14b7428c5a59e51417233525c2a26aa0e",
+                        "progresstext": "Creating Service Account",
+                        "trigger_list": [
+                            {
+                                "trigger": "TBD",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Python 3",
+                        "icon": "14c1d0ead8d7a4bae7be6de6aed069090008e31c3692059f69fb90fbe759af98",
+                        "progresstext": "Installing Python 3",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-Python3",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Management Tools",
+                        "icon": "2868455b1d7c4729b58ecc3054800e7effee27bb64aae4e6c1f18956135b2a30",
+                        "progresstext": "Installing tools and utilities required for managing the mac",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-dockutil",
+                                "validation": "None"
+                            },
+                            {
+                                "trigger": "install-desktoppr",
+                                "validation": "None"
+                            },
+                            {
+                                "trigger": "remove-iwork-ilife",
+                                "validation": "None"
+                            },
+                            {
+                                "trigger": "Install-nudge",
+                                "validation": "None"
+                            },
+                            {
+                                "trigger": "install-laps",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    
+                    {
+                        "listitem": "NoMAD",
+                        "icon": "a4360c5fddc50f022dcaec12b9a0e85e87189cc0bb7a8e1148011394c5bcc691",
+                        "progresstext": "Installing NoMAD",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-nomad",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Microsoft 365",
+                        "icon": "2a24bfce7a62d021fc31feeae341357c6661e9219c9fb879421ca4b448f198af",
+                        "progresstext": "Installing Microsoft 365. This may take some time",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-office365",
+                                "validation": "None"
+                            },
+                            {
+                                "trigger": "install-teams-agent",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Company Portal",
+                        "icon": "be50910c664ac3632bb953bc0bdcda765dea449a5cca108d87530200ecc5aff5",
+                        "progresstext": "Installing Company Portal",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-company-portal",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Skype for Business",
+                        "icon": "ad4f5a1fb0f9359f71c4e9bcacfc857c8ff72405e996b736d914adedb6d97e7e",
+                        "progresstext": "Installing Skype for Business",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-skype",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Zoom",
+                        "icon": "636a398b2caec6f93e52a9f3868459219d692c0888cf7e4915e956d56d419aaa",
+                        "progresstext": "Installing Zoom",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-zoom",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "VPN",
+                        "icon": "d92935a5db07ae9c5a9965bceef3f4a868ea80172835de3523bed0a931a0640e",
+                        "progresstext": "Installing VPN Client",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-f5vpn",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "JamfProtect",
+                        "icon": "b310e757dd985c67f6e799fa6fb9032cacceb17108d86dbe7da1484d6126f26e",
+                        "progresstext": "Installing JamfProtect",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-jamf-protect",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Qualys",
+                        "icon": "20ae3ca281cf3f9d905b688634b4f35e65b42a29317419c884d442b0de5eb124",
+                        "progresstext": "Installing Qualys",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-qualys",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Login Policy Banner",
+                        "icon": "a44100c26754b1fdab90be6394cc573ee5e7c2f6dd5838571af4b606e63d0859",
+                        "progresstext": "Configuring Policy Banner",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-loginbanner",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Druva",
+                        "icon": "8680a39da35753f28b18b4c58480597c8df9fd1207f57f8c7e525a9bd8429e4f",
+                        "progresstext": "Installing Druva",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-druva",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Privileges",
+                        "icon": "0d4b3258e7e2cd38c99a45f79635f733e481dbf3f9de7f59f7db22c0f3cb3290",
+                        "progresstext": "Installing Privileges",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-privileges",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "DesktopAlert",
+                        "icon": "9a30394159a13ed36c95113160060fd1642ccdbba68400f6761a41c42c1706b7",
+                        "progresstext": "Installing DesktopAlert",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-sendwordnow",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Printer Drivers",
+                        "icon": "43ed60dc7a917818544ae924c8d75b6e29be962c73193251ab9c109c5178d89b",
+                        "progresstext": "Installing Printer Drivers",
+                        "trigger_list": [
+                            {
+                                "trigger": "install-printing",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "LogMeIn Rescue",
+                        "icon": "f589941209272ff3a21813eaf4e6cdef33b7b4a0d2cdad715edfa579cea67fb2",
+                        "progresstext": "Installing LogMeIn Rescue",
+                        "trigger_list": [
+                            {
+                                "trigger": "Install-LogMeIn",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Build Infromation",
+                        "icon": "d04d67acfffe27f442b446ce272591e944ed853c64dc3463238eb2968211202e",
+                        "progresstext": "Recording Build Information",
+                        "trigger_list": [
+                            {
+                                "trigger": "build-runbuildinfo",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Member Firm Specific Applications and Settings",
+                        "icon": "8e07a54185686afccdac7e5595808fd48ef0adf1c2bb7045cd8933b4498c28c9",
+                        "progresstext": "Installing and applying Member Firm specific applications and settings",
+                        "trigger_list": [
+                            {
+                                "trigger": "build-memberfirm-policy",
+                                "validation": "None"
+                            },
+                            {
+                                "trigger": "build-memberfirm-required",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Company Branding",
+                        "icon": "abac09bcd5cc73858d1624ce187f5a83c80f77fff05ec0e9381e73e2bb84c40c",
+                        "progresstext": "Applying Company Branding",
+                        "trigger_list": [
+                            {
+                                "trigger": "configure-wallpaper",
+                                "validation": "None"
+                            },
+                            {
+                                "trigger": "configure-dock",
+                                "validation": "None"
+                            },
+                            {
+                                "trigger": "configure-desktop",
+                                "validation": "None"
+                            }
+                        ]
+                    },
+                    {
+                        "listitem": "Finalizing",
+                        "icon": "c2d36545f69a5914f503ce5bc68d204a6cac2d69fc98ed3b5353fb1e7e27d88d",
+                        "progresstext": "Cleaning up and finalizing",
+                        "trigger_list": [
+                            {
+                                "trigger": "build-mark-complete",
+                                "validation": "None"
+                            },
+                            {
+                                "trigger": "start-inventory",
+                                "validation": "None"
+                            },
+                            {
+                                "trigger": "creating-launch-daemon-interactive-setup",
+                                "validation": "None"
+                            }
+                        ]
+                    }
+                ]
+            }
