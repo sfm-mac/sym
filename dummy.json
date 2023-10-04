@@ -6,7 +6,7 @@
                         "progresstext": "Setting Hostname",
                         "trigger_list": [
                             {
-                                "trigger": "build-rename-computer",
+                                "trigger": "abc",
                                 "validation": "None"
                             }
                         ]
@@ -17,7 +17,7 @@
                         "progresstext": "Applying Company Branding",
                         "trigger_list": [
                             {
-                                "trigger": "configure-wallpaper",
+                                "trigger": "xyz",
                                 "validation": "None"
                             }
                         ]
@@ -28,7 +28,7 @@
                         "progresstext": "Cleaning up and finalizing",
                         "trigger_list": [
                             {
-                                "trigger": "build-mark-complete",
+                                "trigger": "abc-xyz",
                                 "validation": "None"
                             }
                         ]
