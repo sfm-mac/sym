@@ -19,14 +19,6 @@
                             {
                                 "trigger": "configure-wallpaper",
                                 "validation": "None"
-                            },
-                            {
-                                "trigger": "configure-dock",
-                                "validation": "None"
-                            },
-                            {
-                                "trigger": "configure-desktop",
-                                "validation": "None"
                             }
                         ]
                     },
