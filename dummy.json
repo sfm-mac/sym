@@ -6,7 +6,7 @@
                         "progresstext": "Setting Hostname",
                         "trigger_list": [
                             {
-                                "trigger": "abc",
+                                "trigger": "a-it",
                                 "validation": "None"
                             }
                         ]
@@ -17,8 +17,12 @@
                         "progresstext": "Applying Company Branding",
                         "trigger_list": [
                             {
-                                "trigger": "xyz",
+                                "trigger": "say-it",
                                 "validation": "None"
+                            },
+                            {
+                                "trigger": "say-it",
+                                "validation": "/Application/Say-iT/info.plist"
                             }
                         ]
                     },
